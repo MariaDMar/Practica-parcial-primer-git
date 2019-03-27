@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .izq {
+  width: 70%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .izq .profile {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border: red 2px solid;
+}
+
+body .der {
+  width: 30%;
+  background: gray;
+  height: 100%;
+}
+
+body .der #color {
+  margin-left: 20px;
+  width: 80%;
+  height: 10px;
+}
+
+body .der h1 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+body .der h2 {
+  margin-left: 20px;
+  color: white;
+}
+
+body .der input {
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+body .der button {
+  width: 80%;
+  margin-left: 20px;
+}
+/*# sourceMappingURL=main.css.map */
